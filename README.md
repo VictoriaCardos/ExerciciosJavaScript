@@ -13,3 +13,6 @@
 //6 – Peça ao usuário para digitar vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida (do último para o primeiro).
 
 //7 – Peça para o usuário digitar uma data. Exiba separadamente o dia, o mês e o ano. (Obs.: não necessita de laço de repetição)
+
+//8 - Implemente um método que retorne um array, sem valores duplicados.
+Entrada do método ([1,2,3,3,2,4,5,4,7,3]), Resultado do método: [1,2,3,4,5,7]
