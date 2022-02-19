@@ -10,6 +10,10 @@
   var $input03 = doc.getElementById("3")
   const $btnResult = doc.getElementById("btn")
 
+  var numOfInput = doc.querySelectorAll('input')
+  numOfInput = numOfInput.length
+  console.log(numOfInput)
+  
   var total = 0
 
   $btnResult.addEventListener('click', verifyInput, false);
@@ -26,7 +30,7 @@
 
   function result(){
    
-    const numOfInput = 3;
+    
     total= (parseInt($input01.value ) +         
     parseInt($input02.value) + 
     parseInt($input03.value)) /numOfInput
