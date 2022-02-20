@@ -1,5 +1,6 @@
 # ExerciciosJavaScript
 //Faça o exercícios abaixo:
+
 //1 – Calcule a média de diversas notas digitadas pelo usuário.
 
 //2 – Faça um programa que entre com cinco números e imprima o quadrado de cada número.
