@@ -19,9 +19,9 @@
     var values = $input01.value
     values = values.split(/\D/)
 
-    if(values[values.length - 1] == ''){
-      values.pop()
-    }
+    values = values.filter(function(item){
+      return item !== ''
+    })
     
     if($input01.value == ''){
       return alert("insira os valores")
