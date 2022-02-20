@@ -27,7 +27,12 @@
       return alert("insira os valores")
     }
     if(values.length != 5){
-       return alert("insira 5 valores")
+    
+      if(values.length > 5){
+        return alert(`exclua ${values.length - 5} valores`)
+      }else{
+        return alert(`Insira mais ${5 -values.length} valores`)
+      }
     }
     
     return result()
