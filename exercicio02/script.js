@@ -13,7 +13,8 @@
   const $btnResult = doc.getElementById("btn")
   var allInputs = doc.querySelectorAll('input')
   var arr = []
-
+  var arr2 = []
+  var cont = -1
 
 
   $btnResult.addEventListener('click', verifyInput, false);
@@ -35,25 +36,31 @@
     Object.keys(allInputs).map(function(item){
       quadrado= allInputs[item].value *allInputs[item].value
         arr.push(quadrado)
+        arr2.push(allInputs[item].value)
 
     })
       return (
         arr,
+        arr2,
         handleButton()
       );
   }
 
+  
   function handleButton(){
     var $ul = doc.createElement('ul')
     var $h3 = doc.createElement('h3')
+    
       arr.map(function(item){
+        cont++
         var $li = doc.createElement('li')
-        $li.textContent =`${item}`
+        $li.textContent =`${arr2[cont]} -> ${item}`
         return (
           $ul.appendChild($li),
           clearInput()
         )
       })
+    
     $h3.textContent ='Resultado do quadrado de cada valor:'
     return (
       $div.appendChild($h3),
@@ -68,6 +75,5 @@
      $input04.value = '';
      $input05.value = '';
   }
-
 
 })(window, document);
