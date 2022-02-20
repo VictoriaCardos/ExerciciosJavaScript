@@ -18,6 +18,10 @@
   function verifyInput(){
     var values = $input01.value
     values = values.split(/\D/)
+
+    if(values[values.length - 1] == ''){
+      values.pop()
+    }
     
     if($input01.value == ''){
       return alert("insira os valores")
@@ -25,6 +29,7 @@
     if(values.length != 5){
        return alert("insira 5 valores")
     }
+    
     return result()
   }
 
