@@ -21,3 +21,5 @@ Entrada do método ([1,2,3,3,2,4,5,4,7,3]), Resultado do método: [1,2,3,4,5,7]
 //9 - Implemente um método que compare a igualdade de dois arrays e retorne um valor booleano. Entrada do método ([1,2,3,4],[1,2,3,4]), Resultado do método: true
 
 //10) Implemente um método que remova os aninhamentos de um array de arrays para um array unico.Entrada do método ([1, 2, [3], [4, 5]]), Resultado do método: [1, 2, 3, 4, 5]
+
+//11) Implemente um método que encontre os valores comuns entre dois arrays.Entrada do método ([6, 8], [8, 9]), Resultado do método: [8]
