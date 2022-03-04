@@ -30,3 +30,9 @@ Entrada do método ([1,2,3,3,2,4,5,4,7,3]), Resultado do método: [1,2,3,4,5,7]
 
 
 //14) Have the function LongestWord(sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers, for example "Hello world123 567"
+
+//15) Utilize o JavaScript para tentar reproduzir as seguintes funções no seu cronômetro personalizado:
+
+– Iniciar
+– Parar
+– Resetar (voltar para o início)
