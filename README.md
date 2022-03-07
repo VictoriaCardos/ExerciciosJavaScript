@@ -36,3 +36,6 @@ Entrada do método ([1,2,3,3,2,4,5,4,7,3]), Resultado do método: [1,2,3,4,5,7]
 – Iniciar
 – Parar
 – Resetar (voltar para o início)
+
+
+//16) Implemente um método divida um array por uma quantidade passada por parâmetro. Entrada do método ([1, 2, 3, 4, 5], 2), Resultado do método: [[1, 2], [3, 4], [5]]
