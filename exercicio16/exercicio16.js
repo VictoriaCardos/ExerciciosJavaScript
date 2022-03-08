@@ -4,15 +4,12 @@
 
 function agroupArr(arr, param){
   var newArr = []
-  let cont = 0
-  arr.map(function(item){
-    cont++
-    if(cont-1<param){
-      newArr.push(item)
-      console.log(newArr)
-    }
-    return newArr
-  })
+  let cont = Math.floor( arr.length / param)
+  console.log(cont)
+  arr = JSON.stringify(arr)
+  return arr.split(',',cont)
+  
+  
 }
 
 console.log(agroupArr([1, 2, 3, 4, 5], 2))
